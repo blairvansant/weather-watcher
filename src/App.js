@@ -7,11 +7,18 @@ const api = {
 
 function App() {
   return (
-    <div className="App">
-      YO!
+    <div className="app">
+      <main>
+        <div className="search-box">
+          <input 
+            type="text" 
+            className="search-bar" 
+            placeholder="Search...">
+          </input>
+        </div>
+      </main>
     </div>
   );
 }
 
 export default App;
-2022-02-02-14-20-10.png
