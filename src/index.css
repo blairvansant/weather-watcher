@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app {
+  background-image: url('./assets/cold-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+.app.warm {
+  background-image: url('./assets/warm-bg.png');
+}
+
+main {
+  min-height: 100vh;
+}
